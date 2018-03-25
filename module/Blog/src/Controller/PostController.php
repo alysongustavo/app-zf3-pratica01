@@ -22,9 +22,9 @@ class PostController extends AbstractActionController
      */
     private $postService;
 
+
     public function __construct(PostService $postService)
     {
-
         $this->postService = $postService;
     }
 

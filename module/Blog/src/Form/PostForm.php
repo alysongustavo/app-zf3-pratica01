@@ -8,7 +8,6 @@
 
 namespace Blog\Form;
 
-
 use Blog\Filter\PostFilter;
 use Zend\Form\Element\Hidden;
 use Zend\Form\Element\Text;

@@ -53,7 +53,7 @@ return [
           // DAO
           PostDAO::class => PostDAOFactory::class,
           // Service
-          PostService::class => PostServiceFactory::class
+          PostService::class => PostServiceFactory::class,
       ]
   ],
   'view_manager' => [

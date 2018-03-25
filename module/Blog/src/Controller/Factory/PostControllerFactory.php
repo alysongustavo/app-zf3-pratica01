@@ -10,6 +10,7 @@ namespace Blog\Controller\Factory;
 
 
 use Blog\Controller\PostController;
+use Blog\Form\PostForm;
 use Blog\Service\PostService;
 use Interop\Container\ContainerInterface;
 use Interop\Container\Exception\ContainerException;
