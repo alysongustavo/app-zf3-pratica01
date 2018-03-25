@@ -1,0 +1,12 @@
+<div class="col-md-12">
+    <?php foreach ($posts as $post): ?>
+    <h1><?= $post->getTitle() ?></h1>
+    <p><?= $post->getText() ?></p>
+    <div>
+        <span class="badge">Posted <?= $post->getData() ?></span><div class="pull-right"><span class="label label-default">alice</span> <span class="label label-primary">story</span> <span class="label label-success">blog</span> <span class="label label-info">personal</span> <span class="label label-warning">Warning</span>
+            <span class="label label-danger">Danger</span></div>
+    </div>
+    <hr>
+    <?php endforeach; ?>
+
+</div>
